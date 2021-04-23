@@ -1,0 +1,69 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("8e263a56-f6c0-425a-9df3-d896b9cdc969",
+	"00000000-0000-0000-0000-000000000000",
+	"ef981a51-cb7d-408d-85f6-7ee345d4bae6",
+	'linkloader',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("685e63b5-6dd3-4b0f-9597-fb02a9647c2c",
+	112,
+	"8e263a56-f6c0-425a-9df3-d896b9cdc969",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'mytoolsql::iociera::mysql::linkloader');
+INSERT INTO DIM_DIA
+	VALUES ("685e63b5-6dd3-4b0f-9597-fb02a9647c2c",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO EP_PKGREF
+	VALUES ("8e263a56-f6c0-425a-9df3-d896b9cdc969",
+	"b30fb759-1a15-4f36-b35f-40ecb85ec776");
+INSERT INTO EP_PKG_PROXY
+	VALUES ("b30fb759-1a15-4f36-b35f-40ecb85ec776",
+	"ef981a51-cb7d-408d-85f6-7ee345d4bae6",
+	"ef981a51-cb7d-408d-85f6-7ee345d4bae6",
+	'linkloader',
+	'',
+	0,
+	'../../../linkloader/linkloader.xtuml');
+INSERT INTO PE_PE
+	VALUES ("8e263a56-f6c0-425a-9df3-d896b9cdc969",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"860b59b5-a7cf-4b99-93b1-beb43d041753",
+	7);
+INSERT INTO C_C_PROXY
+	VALUES ("860b59b5-a7cf-4b99-93b1-beb43d041753",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'mysql',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'',
+	'../mysql.xtuml');
+INSERT INTO S_SYS_PROXY
+	VALUES ("ef981a51-cb7d-408d-85f6-7ee345d4bae6",
+	'mytoolsql',
+	1,
+	'../../../mytoolsql.xtuml');
